@@ -1,25 +1,25 @@
-# Clasificación de Países según Riesgo Energético
+# 🌍 Classification of Countries by Energy Risk
 
-Este repositorio contiene el desarrollo completo del proyecto final del Bootcamp Talento Tech, enfocado en la clasificación de países según su nivel de riesgo energético mediante el uso de técnicas avanzadas de machine learning.
+This repository contains the complete development of the final project for the **Bootcamp Talento Tech**, focused on classifying countries based on their energy risk levels using advanced machine learning techniques.
 
-## Descripción
+## 📌 Description
 
-El proyecto aborda un problema crítico para la sostenibilidad global: identificar y clasificar países según su riesgo energético en categorías de **Alto**, **Medio** y **Bajo** riesgo. Esto se logra utilizando datos públicos sobre consumo energético, energías renovables, acceso a combustibles limpios, entre otros factores.
+The project addresses a critical issue for global sustainability: identifying and classifying countries according to their **High**, **Medium**, or **Low** energy risk. This is achieved using public data on energy consumption, renewable energy, access to clean fuels, among other factors.
 
-El modelo desarrollado combina técnicas de limpieza de datos, ingeniería de características, reducción de dimensionalidad con PCA y algoritmos de clasificación como Random Forest y Árboles de Decisión. También incluye estrategias para abordar el desbalance de clases mediante SMOTE y GridSearchCV para la optimización de hiperparámetros.
+The developed model integrates **data cleaning**, **feature engineering**, **dimensionality reduction with PCA**, and classification algorithms such as **Random Forest** and **Decision Trees**. Additionally, it includes strategies to handle **class imbalance using SMOTE** and **hyperparameter optimization with GridSearchCV**.
 
-## Estructura del Proyecto
+## 📂 Project Structure
 
-- **01_Introducción**: Contexto del problema, objetivos y relevancia global.
-- **02_Preparación de Datos**: Limpieza, imputación de valores faltantes y reducción de dimensionalidad.
-- **03_Modelado**: Entrenamiento de modelos de clasificación (Random Forest, Árboles de Decisión).
-- **04_Evaluación**: Métricas como Accuracy, Matriz de Confusión, F1-Score y curvas ROC-AUC.
-- **05_Optimización**: Uso de GridSearchCV para encontrar los mejores hiperparámetros.
+- **01_Introduction**: Problem context, objectives, and global relevance.
+- **02_Data Preparation**: Data cleaning, missing value imputation, and dimensionality reduction.
+- **03_Modeling**: Training classification models (Random Forest, Decision Trees).
+- **04_Evaluation**: Metrics such as Accuracy, Confusion Matrix, F1-Score, and ROC-AUC curves.
+- **05_Optimization**: Using GridSearchCV to find the best hyperparameters.
 
-## Requisitos
+## 🔧 Requirements
 
 - **Python 3.8+**
-- Bibliotecas utilizadas:
+- Required libraries:
   - `numpy`
   - `pandas`
   - `matplotlib`
@@ -27,26 +27,27 @@ El modelo desarrollado combina técnicas de limpieza de datos, ingeniería de ca
   - `scikit-learn`
   - `imbalanced-learn`
 
-Para instalar todas las dependencias:
+To install all dependencies:
 ```bash
 pip install -r requirements.txt
 
-Ejecución
 
-    Clona este repositorio:
+Execution:
+
+    Clone this repository:
 
 git clone https://github.com/usuario/repositorio.git
 
-Ejecuta el archivo Jupyter Notebook:
+Execute the Jupyter Notebook file:
 
     jupyter notebook Final_project_talento_tech.ipynb
 
-Resultados
+Results:
 
     Precisión del modelo: 98.5%
     ROC-AUC promedio: 99.7%
     Visualización del modelo de Árbol de Decisión optimizado.
 
-Contribuciones
+Contributions:
 
-Se aceptan contribuciones para mejorar el análisis o incorporar nuevos modelos. Por favor, crea un issue o envía un pull request.
+Contributions are accepted to improve the analysis or incorporate new models. Please create an issue or submit a pull request.
